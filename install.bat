@@ -2,7 +2,7 @@
 
 @rem TODO - use drive env in script below
  
-set prog=inlineHtmlImages
+set prog=InlineHtmlImages
 set bindir=d:\opt\bin
 set msbuild=F:\opt\VisualStudio\2022\Preview\MSBuild\Current\Bin\MSBuild.exe
 
