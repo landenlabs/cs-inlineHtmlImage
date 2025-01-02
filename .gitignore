@@ -1,0 +1,18 @@
+# Mac exclude
+.DS_Store
+/DerivedData
+/*/project.xcworkspace/
+/*/xcuserdata/
+*.xcuserstate
+
+# Windows VisualStudio
+# windows
+.ipch/
+x64/
+**/x64/
+obj/
+**/obj/
+.vs/
+.obj
+.exe
+
