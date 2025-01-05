@@ -10,8 +10,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Convert external HTML img ref to/from inlined images")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("LanDen Labs - Dennis Lang")]
-[assembly: AssemblyProduct("InlineHtmlImages_NS")]
-[assembly: AssemblyCopyright("Copyright © 2024 - LanDen Labs")]
+[assembly: AssemblyProduct("InlineHtmlImages")]
+[assembly: AssemblyCopyright("Copyright © LanDen Labs 2025")]
 [assembly: AssemblyTrademark("free to use, can't sell")]
 [assembly: AssemblyCulture("")]
 
