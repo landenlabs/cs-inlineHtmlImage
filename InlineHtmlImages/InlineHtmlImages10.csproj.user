@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartWorkingDirectory>E:\opt\soft14\dlang-website\android\devstuff</StartWorkingDirectory>
+    <StartArguments>-in index-img.html -out index-inlined3.html</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartArguments>-tob64 -in %2a.exe</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartWorkingDirectory>E:\opt\soft14\dlang-website\android\devstuff</StartWorkingDirectory>
+    <StartArguments>-in index-img.html -out index.html</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://upload.comcast.net/cs-inlinehtmlimages/</PublishUrlHistory>
+    <InstallUrlHistory>https://landenlabs.com/cs-inlinehtmlimages/</InstallUrlHistory>
+    <SupportUrlHistory>https://landenlabs.com/</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

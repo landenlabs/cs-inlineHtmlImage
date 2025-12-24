@@ -124,7 +124,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>landenlabs-cs-key.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>InlineHtmlImages.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>landenlabs.ico</ApplicationIcon>
@@ -150,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="InlineHtmlImages.pfx" />
     <None Include="landenlabs-cs-key.pfx" />
   </ItemGroup>
   <ItemGroup>
