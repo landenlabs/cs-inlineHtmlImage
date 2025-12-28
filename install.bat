@@ -2,7 +2,7 @@
 
 @rem TODO - use drive env in script below
  
-call dev-setup.bat
+call ..\dev-setup.bat
 
 set prog=InlineHtmlImages
 
@@ -11,12 +11,12 @@ cd %prog%
 lldu -sum obj bin 
 rmdir /s obj  2> nul
 rmdir /s bin  2> nul
-@rem %msbuild% %prog%.sln  -t:Clean
+@rem "%msbuild%" "%prog%.sln"  -t:Clean
 cd ..
 
 @echo.
 @echo ---- Build Release %prog% 
-%msbuild% %prog%.sln -p:Configuration="Release";Platform=x64 -verbosity:minimal  -detailedSummary:True
+"%msbuild%" "%prog%.sln" -p:Configuration="Release";Platform=x64 -verbosity:minimal  -detailedSummary:True
 
 @echo.
 @echo ---- Build done 
